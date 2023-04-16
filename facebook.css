@@ -1,0 +1,1060 @@
+
+
+#main {
+    background-color: black;
+}
+
+body {
+
+background-color: aliceblue;
+}
+
+#heater {
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+    padding: 1px;
+    width: 100%;
+    height: 80px;
+    background-color: darkblue;
+}
+
+#facebook {
+    margin-top: 30px;
+    padding-left: 100px;
+    margin-left: 100px;
+    font-size: 30x;
+    color: white;
+    font-family: sans-serif;
+}
+
+#correo {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    left:calc(100% - 45%);
+}
+
+#contraseña {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    left:calc(100% - 32.5%);
+}
+
+#entrar {
+    border: 1px solid black;
+    color: white;
+    background-color: darkblue;
+    position: absolute;
+    left:calc(100% - 15%);
+    top: calc(100% - 93%);
+}
+
+#fotosPSuperior { 
+    position: absolute;
+    left: calc(100% - 80%);
+    top: calc(100% - 70%);
+
+}
+
+#fotosPinferior {
+    display: flex;
+    flex-direction: row
+}
+#inicios {
+    position: absolute;
+    top: -135px;
+    left: -100px;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 600px;
+    font-weight: bold;
+padding: 1px;
+}
+#click {
+    position: absolute;
+    width: 500px;
+    top: -75px;
+    left: -100px;
+}
+
+.imagen {
+width: 150px;
+height: 150px;
+}
+
+
+.input {
+    width: 100px;
+}
+
+#carta1 {
+   
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 6px;
+}_
+#carta2 {
+    
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    margin: 6px;
+    box-sizing: border-box;
+    
+}
+#carta3 {
+    
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 6px;
+}
+
+#cartas {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: calc(100% - 74%);
+    left: calc(100% - 87.5%);
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    
+}
+
+#crea {
+    font-family: sans-serif;
+ font-weight: bold;
+ font-size: 33px;
+ position: absolute;
+ left: 900px;
+ background-color: transparent;
+}
+
+#rapido1 {
+
+    height: 0px;
+    width: 10%;
+background-color: transparent;
+}
+#formulario {
+    background-color: transparent;
+}
+
+#rapido2 {
+    font-size: 18px;
+}
+#inputs {
+    display: table-column;
+    width: 30px;
+}
+
+#nombreYapellido {
+    margin: 5px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+#nombre {
+    width: 150px;
+    height: 25px;
+    position: absolute;
+    left: 8px;
+}
+
+#apellidos {
+    top: 0px;
+    left: 177px;
+position: absolute;
+    width: 150px;
+    height: 25px;
+}
+
+#numero {
+    width: 317px;
+    margin: 5px;
+    height: 25px;
+}
+
+#vuelve{
+    width: 317px;
+    
+    margin: 5px;
+    height: 25px;
+}
+
+#contraseña1 {
+    width: 317px;
+    margin: 5px;
+    height: 25px;
+    
+}
+
+#genero {
+   position: absolute;
+   left: 10px;
+   top: 215px;
+   display: flex;
+   flex-direction: row;
+
+}
+
+#radios {
+    display: flex;
+   flex-direction: row;
+   position: absolute;
+   top: 240px;
+   left: 10px;
+}
+
+#fechaId {
+    position: absolute;
+    left: 10px;
+    top: 155px;
+
+}
+#fecha {
+    width: 200px;
+   
+}
+#inputs {
+    
+  display: flex;
+  flex-direction: column;
+    position: absolute;
+    left: calc(100% - 42%);
+    top: calc(100% - 70%);
+
+   
+}
+
+#numeroYcontraseña {
+    margin: 5px;
+}
+
+#registrarte {
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 280px;
+    height: 40px;
+    background-color: darkgreen;
+    color: white;
+    position: absolute;
+    left: calc(90% - 31.5%);
+    top: calc(100% - 4%);
+}
+
+#clickRegistrarte {
+width: 350px;
+position: absolute;
+left: calc(100% - 41.5%);
+top: calc(100% - 30%);
+
+}
+#logo:hover {
+    background-image: url(./gato_informatico.png);
+    background-size: 170px 170px;
+    animation-delay: 2000ms;
+    transition-duration: 4000ms;
+    
+}
+
+#logo {
+    width: 180px;
+    height: 180px;
+background-size: 180px 180px;
+     position: absolute;
+     left: calc(100% - 90%);
+     top: calc(100% - 20%);
+    background-repeat: no-repeat;
+background-image: url(./LogoCabecera.png);
+z-index: 1;
+}
+
+@media screen and (min-width: 320px) 
+{
+
+    #inicios {
+        position: absolute;
+        top: -135px;
+        left: calc(100% + 30%);
+        font-size: 35px;
+        font-family: sans-serif;
+        width: 600px;
+        font-weight: bold;
+    padding: 1px;
+    }
+    #click {
+        position: absolute;
+        width: 500px;
+        top: -75px;
+        left: calc(100% + 10%);
+    }
+
+    #facebook {
+        margin-top: 30px;
+        padding-left: 100px;
+        margin-left: 100px;
+        font-size: 20px;
+        color: white;
+        font-family: sans-serif;
+        position: absolute;
+        left: calc(100% - 140%);
+
+    }
+    
+    #correo {
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        left:calc(100% + 5%);
+    }
+    
+    #contraseña {
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        left:calc(100% - 50.5%);
+    }
+    
+    #entrar {
+        border: 1px solid black;
+        color: white;
+        background-color: darkblue;
+        position: absolute;
+        left:calc(100% + 60%);
+        top: calc(100% - 93%);
+    }
+    
+
+    #logo:hover {
+        background-image: url(./gato_informatico.png);
+        background-size: 170px 170px;
+        animation-delay: 2000ms;
+        transition-duration: 4000ms;
+        
+    }
+    
+    #logo {
+        width: 180px;
+        height: 180px;
+    background-size: 180px 180px;
+         position: absolute;
+         left: calc(100% - 95%);
+         top: calc(100% - 20%);
+        background-repeat: no-repeat;
+    background-image: url(./LogoCabecera.png);
+    z-index: 1;
+    }
+    
+    #crea {
+        width: 300px;
+        font-family: sans-serif;
+     font-weight: bold;
+     font-size: 20px;
+     position: absolute;
+     left: calc(100% - 40%);
+     top: calc(100% - 40%);
+     background-color: transparent;
+    }
+    }
+    #heater {
+        max-width: 800px;
+        display: flex;
+        flex-direction: row;
+        margin: 1px;
+        padding: 1px;
+        width: 800px;
+        height: 80px;
+        background-color: darkblue;
+    }
+
+    #registrarte {
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 5px;
+        width: 280px;
+        height: 40px;
+        background-color: darkgreen;
+        color: white;
+        position: absolute;
+        left: calc(90% - 31.5%);
+        top: calc(100% + 55%);
+    }
+    
+    #clickRegistrarte {
+    width: 350px;
+    position: absolute;
+    left: calc(100% - 41.5%);
+    top: calc(100% + 28%);
+    
+    }
+
+    
+#genero {
+    position: absolute;
+    left: 10px;
+    top: calc(100% + 67%);
+    display: flex;
+    flex-direction: row;
+ 
+ }
+ 
+ #radios {
+     display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:calc(100% + 78%);
+    left: 10px;
+ }
+ #fechaId {
+    position: absolute;
+    left: 10px;
+    top: calc(100% + 45%);
+}
+
+#inputs{
+    
+    display: flex;
+      flex-direction: column;
+        position: absolute;
+        left: calc(100% - 42%);
+        top: calc(100% - 25%);
+    
+}    
+    @media screen and (min-width: 640px) 
+    {
+        
+
+            #inicios {
+                position: absolute;
+                top: -145px;
+                left: calc(100% + 30%);
+                font-size: 35px;
+                font-family: sans-serif;
+                width: 600px;
+                font-weight: bold;
+            padding: 1px;
+            }
+            #click {
+                position: absolute;
+                width: 500px;
+                top: -85px;
+                left: calc(100% + 10%);
+            }
+        
+            #facebook {
+                margin-top: 30px;
+                padding-left: 100px;
+                margin-left: 100px;
+                font-size: 20px;
+                color: white;
+                font-family: sans-serif;
+                position: absolute;
+                left: calc(100% - 140%);
+        
+            }
+            
+            #correo {
+                font-size: 12px;
+                color: white;
+                position: absolute;
+                left:calc(100% + 5%);
+            }
+            
+            #contraseña {
+                font-size: 12px;
+                color: white;
+                position: absolute;
+                left:calc(100% - 50.5%);
+            }
+            
+            #entrar {
+                border: 1px solid black;
+                color: white;
+                background-color: darkblue;
+                position: absolute;
+                left:calc(100% + 60%);
+                top: calc(100% - 93%);
+            }
+            
+        
+            #logo:hover {
+                background-image: url(./gato_informatico.png);
+                background-size: 170px 170px;
+                animation-delay: 2000ms;
+                transition-duration: 4000ms;
+                
+            }
+            
+            #logo {
+                width: 180px;
+                height: 180px;
+            background-size: 180px 180px;
+                 position: absolute;
+                 left: calc(100% - 95%);
+                 top: calc(100% - 20%);
+                background-repeat: no-repeat;
+            background-image: url(./LogoCabecera.png);
+            z-index: 1;
+            }
+            
+            #crea {
+                width: 300px;
+                font-family: sans-serif;
+             font-weight: bold;
+             font-size: 20px;
+             position: absolute;
+             left: calc(100% - 40%);
+             top: calc(100% - 40%);
+             background-color: transparent;
+            }
+            }
+            #heater {
+                max-width: 900px;
+                display: flex;
+                flex-direction: row;
+                
+                padding: 1px;
+                width: 650px;
+                height: 65px;
+                background-color: darkblue;
+            }
+        
+            #registrarte {
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 5px;
+                width: 280px;
+                height: 40px;
+                background-color: darkgreen;
+                color: white;
+                position: absolute;
+                left: calc(90% - 31.5%);
+                top: calc(100% + 55%);
+            }
+            
+            #clickRegistrarte {
+            width: 350px;
+            position: absolute;
+            left: calc(100% - 41.5%);
+            top: calc(100% + 28%);
+            
+            }
+        
+            
+        #genero {
+            position: absolute;
+            left: 10px;
+            top: calc(100% + 35%);
+            display: flex;
+            flex-direction: row;
+         
+         }
+         
+         #radios {
+             display: flex;
+            flex-direction: row;
+            position: absolute;
+            top:calc(100% + 54%);
+            left: 10px;
+         }
+         #fechaId {
+            position: absolute;
+            left: 10px;
+            top: calc(100% - 5%);
+        }
+        
+        #inputs{
+            
+            display: flex;
+              flex-direction: column;
+                position: absolute;
+                left: calc(100% - 42%);
+                top: calc(100% - 25%);
+            
+        }    
+
+        #registrarte {
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 5px;
+            width: 280px;
+            height: 40px;
+            background-color: darkgreen;
+            color: white;
+            position: absolute;
+            left: calc(90% - 31.5%);
+            top: calc(100% + 60%);
+        }
+        
+        @media screen and (orientation: landscape) {
+
+            
+        
+
+                #inicios {
+                    position: absolute;
+                    top: -145px;
+                    left: calc(100% + 30%);
+                    font-size: 35px;
+                    font-family: sans-serif;
+                    width: 600px;
+                    font-weight: bold;
+                padding: 1px;
+                }
+                #click {
+                    position: absolute;
+                    width: 500px;
+                    top: -85px;
+                    left: calc(100% + 10%);
+                }
+            
+                #facebook {
+                    margin-top: 30px;
+                    padding-left: 100px;
+                    margin-left: 100px;
+                    font-size: 20px;
+                    color: white;
+                    font-family: sans-serif;
+                    position: absolute;
+                    left: calc(100% - 140%);
+            
+                }
+                
+                #correo {
+                    font-size: 12px;
+                    color: white;
+                    position: absolute;
+                    left:calc(100% + 5%);
+                }
+                
+                #contraseña {
+                    font-size: 12px;
+                    color: white;
+                    position: absolute;
+                    left:calc(100% - 50.5%);
+                }
+                
+                #entrar {
+                    border: 1px solid black;
+                    color: white;
+                    background-color: darkblue;
+                    position: absolute;
+                    left:calc(100% + 60%);
+                    top: calc(100% - 93%);
+                }
+                
+            
+                #logo:hover {
+                    background-image: url(./gato_informatico.png);
+                    background-size: 170px 170px;
+                    animation-delay: 2000ms;
+                    transition-duration: 4000ms;
+                    
+                }
+                
+                #logo {
+                    width: 180px;
+                    height: 180px;
+                background-size: 180px 180px;
+                     position: absolute;
+                     left: calc(100% - 95%);
+                     top: calc(100% - 20%);
+                    background-repeat: no-repeat;
+                background-image: url(./LogoCabecera.png);
+                z-index: 1;
+                }
+                
+                #crea {
+                    width: 300px;
+                    font-family: sans-serif;
+                 font-weight: bold;
+                 font-size: 20px;
+                 position: absolute;
+                 left: calc(100% - 40%);
+                 top: calc(100% - 40%);
+                 background-color: transparent;
+                }
+                }
+                #heater {
+                    max-width: 900px;
+                    display: flex;
+                    flex-direction: row;
+                    
+                    padding: 1px;
+                    width: 650px;
+                    height: 65px;
+                    background-color: darkblue;
+                }
+            
+                #registrarte {
+                    font-weight: bold;
+                    font-size: 20px;
+                    border-radius: 5px;
+                    width: 280px;
+                    height: 40px;
+                    background-color: darkgreen;
+                    color: white;
+                    position: absolute;
+                    left: calc(90% - 31.5%);
+                    top: calc(100% + 55%);
+                }
+                
+                #clickRegistrarte {
+                width: 350px;
+                position: absolute;
+                left: calc(100% - 41.5%);
+                top: calc(100% + 28%);
+                
+                }
+            
+                
+            #genero {
+                position: absolute;
+                left: 10px;
+                top: calc(100% + 35%);
+                display: flex;
+                flex-direction: row;
+             
+             }
+             
+             #radios {
+                 display: flex;
+                flex-direction: row;
+                position: absolute;
+                top:calc(100% + 54%);
+                left: 10px;
+             }
+             #fechaId {
+                position: absolute;
+                left: 10px;
+                top: calc(100% - 5%);
+            }
+            
+            #inputs{
+                
+                display: flex;
+                  flex-direction: column;
+                    position: absolute;
+                    left: calc(100% - 42%);
+                    top: calc(100% - 25%);
+                
+            }    
+    
+            #registrarte {
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 5px;
+                width: 280px;
+                height: 40px;
+                background-color: darkgreen;
+                color: white;
+                position: absolute;
+                left: calc(90% - 31.5%);
+                top: calc(100% + 60%);
+            }
+            
+        @media (min-width: 1200px) {
+
+            #main {
+                background-color: black;
+            }
+            
+            body {
+            
+            background-color: aliceblue;
+            }
+            
+            #heater {
+                display: flex;
+                flex-direction: row;
+                margin: 1px;
+                padding: 1px;
+                width: calc(100% + 5%);
+                max-width: 1500px;
+                height: 80px;
+                background-color: darkblue;
+            }
+            
+            #facebook {
+               position: absolute;
+               left: calc(100% - 98.5%);
+               top: calc(100% - 97%);
+                margin-left: 80px;
+                font-size: 40px;
+                color: white;
+                font-family: sans-serif;
+                z-index: 1;
+            }
+            
+            #correo {
+                font-size: 12px;
+                color: white;
+                position: absolute;
+                left:calc(100% - 45%);
+            }
+            
+            #contraseña {
+                font-size: 12px;
+                color: white;
+                position: absolute;
+                left:calc(100% - 32.5%);
+            }
+            
+            #entrar {
+                border: 1px solid black;
+                color: white;
+                background-color: darkblue;
+                position: absolute;
+                left:calc(100% - 15%);
+                top: calc(100% - 93%);
+            }
+            
+            #fotosPSuperior { 
+                position: absolute;
+                left: calc(100% - 80%);
+                top: calc(100% - 70%);
+            
+            }
+            
+            #fotosPinferior {
+                display: flex;
+                flex-direction: row
+            }
+            #inicios {
+                position: absolute;
+                top: -135px;
+                left: -100px;
+                font-size: 35px;
+                font-family: sans-serif;
+                width: 600px;
+                font-weight: bold;
+            padding: 1px;
+            }
+            #click {
+                position: absolute;
+                width: 500px;
+                top: -75px;
+                left: -100px;
+            }
+            
+            .imagen {
+            width: 150px;
+            height: 150px;
+            }
+            
+            
+            .input {
+                width: 100px;
+            }
+            
+            #carta1 {
+               
+                width: 300px;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                
+                margin: 6px;
+            }_
+            #carta2 {
+                
+                width: 300px;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 100px;
+                margin: 6px;
+                box-sizing: border-box;
+                
+            }
+            #carta3 {
+                
+                width: 300px;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                
+                margin: 6px;
+            }
+            
+            #cartas {
+                width: 250px;
+                height: 250px;
+                position: absolute;
+                top: calc(100% - 74%);
+                left: calc(100% - 87.5%);
+                display: flex;
+                flex-direction: row;
+                box-sizing: border-box;
+                
+            }
+            
+            #crea {
+                font-family: sans-serif;
+             font-weight: bold;
+             font-size: 33px;
+             position: absolute;
+             left: calc(100% - 41.5%);
+             top: calc(100% - 90%);
+             background-color: transparent;
+            }
+            
+            #rapido1 {
+            
+                height: 0px;
+                width: 10%;
+            background-color: transparent;
+            }
+            #formulario {
+                background-color: transparent;
+            }
+            
+            #rapido2 {
+                font-size: 18px;
+            }
+            #inputs {
+                display: table-column;
+                width: 30px;
+            }
+            
+            #nombreYapellido {
+                margin: 5px;
+                position: absolute;
+                display: flex;
+                flex-direction: row;
+            }
+            
+            #nombre {
+                width: 150px;
+                height: 25px;
+                position: absolute;
+                left: 8px;
+            }
+            
+            #apellidos {
+                top: 0px;
+                left: 177px;
+            position: absolute;
+                width: 150px;
+                height: 25px;
+            }
+            
+            #numero {
+                width: 317px;
+                margin: 5px;
+                height: 25px;
+            }
+            
+            #vuelve{
+                width: 317px;
+                
+                margin: 5px;
+                height: 25px;
+            }
+            
+            #contraseña1 {
+                width: 317px;
+                margin: 5px;
+                height: 25px;
+                
+            }
+            
+            #genero {
+               position: absolute;
+               left: 10px;
+               top: 215px;
+               display: flex;
+               flex-direction: row;
+            
+            }
+            
+            #radios {
+                display: flex;
+               flex-direction: row;
+               position: absolute;
+               top: 240px;
+               left: 10px;
+            }
+            
+            #fechaId {
+                position: absolute;
+                left: 10px;
+                top: 155px;
+            
+            }
+            #fecha {
+                width: 200px;
+               
+            }
+            #inputs {
+                
+              display: flex;
+              flex-direction: column;
+                position: absolute;
+                left: calc(100% - 42%);
+                top: calc(100% - 72.5%);
+            
+               
+            }
+            
+            #numeroYcontraseña {
+                margin: 5px;
+            }
+            
+            #registrarte {
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 5px;
+                width: 280px;
+                height: 40px;
+                background-color: darkgreen;
+                color: white;
+                position: absolute;
+                left: calc(90% - 31.5%);
+                top: calc(100% - 4%);
+            }
+            
+            #clickRegistrarte {
+            width: 350px;
+            position: absolute;
+            left: calc(100% - 41.5%);
+            top: calc(100% - 30%);
+            
+            }
+            #logo:hover {
+                background-image: url(./gato_informatico.png);
+                background-size: 170px 170px;
+                animation-delay: 2000ms;
+                transition-duration: 4000ms;
+                
+            }
+            
+            #logo {
+                width: 180px;
+                height: 180px;
+            background-size: 180px 180px;
+                 position: absolute;
+                 left: calc(100% - 90%);
+                 top: calc(100% - 20%);
+                background-repeat: no-repeat;
+            background-image: url(./LogoCabecera.png);
+            z-index: 1;
+            }
+            
+
+        }
